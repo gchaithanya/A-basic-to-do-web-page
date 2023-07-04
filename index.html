@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>To-Do App</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -11,11 +11,11 @@
       <input type="text" id="taskInput" placeholder="Add a task">
       <button type="submit">Add</button>
     </form>
-    <div id="pendingTasks">
+    <div id="pendingTasks" class="tasks">
       <h2>Pending Tasks</h2>
       <ul id="pendingTasksList"></ul>
     </div>
-    <div id="completedTasks">
+    <div id="completedTasks"class="tasks" >
       <h2>Completed Tasks</h2>
       <ul id="completedTasksList"></ul>
     </div>
